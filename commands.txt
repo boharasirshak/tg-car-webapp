@@ -1,0 +1,6 @@
+ngrok http --domain=emu-master-severely.ngrok-free.app 3000
+
+pnpm dev
+
+ .\venv\Scripts\activate
+ python main.py

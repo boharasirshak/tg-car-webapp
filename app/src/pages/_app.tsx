@@ -16,6 +16,7 @@ import { useEffect, type FC } from "react";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 
 import "./global.css";
+import "../../public/assets/css/style.css";
 
 const ErrorBoundaryError: FC<{ error: unknown }> = ({ error }) => (
   <div>
